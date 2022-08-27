@@ -4,7 +4,6 @@
  * This file is dedicated to the routing logic for sign up and sign in
  */
 const authController = require("../controllers/auth.controller")
-console.log(require("../middlewares"))
 const { verifySignup } = require("../middlewares")
 module.exports = (app) => {
     /**
